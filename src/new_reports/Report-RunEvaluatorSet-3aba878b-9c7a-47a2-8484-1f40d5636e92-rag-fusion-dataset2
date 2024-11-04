@@ -1,0 +1,35 @@
+{
+    "RunEvaluatorSet-3aba878b-9c7a-47a2-8484-1f40d5636e92-rag-fusion-dataset2": "Legis",
+    "interactions": {
+        "simple-query": {
+            "faithfulness": 0.37777777777777777,
+            "context_recall": 0.25,
+            "llm_context_precision_without_reference": 0.24999999998055555,
+            "answer_relevancy": 0.5062125089417696
+        },
+        "complex-query": {
+            "faithfulness": 0.4484014161220043,
+            "context_recall": 0.14550264550264547,
+            "llm_context_precision_without_reference": 0.0303030303,
+            "answer_relevancy": 0.7410070484093425
+        },
+        "comparion-query": {
+            "faithfulness": 0.20323618000514848,
+            "context_recall": 0.3652014652014652,
+            "llm_context_precision_without_reference": 0.0,
+            "answer_relevancy": 0.7482762388602832
+        },
+        "multi-hop-query": {
+            "faithfulness": 0.5950472896668549,
+            "context_recall": 0.4600000000000001,
+            "llm_context_precision_without_reference": 0.3999999999871667,
+            "answer_relevancy": 0.6945282895833241
+        },
+        "open_query": {
+            "faithfulness": 0.3612432318475399,
+            "context_recall": 0.48214285714285715,
+            "llm_context_precision_without_reference": 0.08333333333055555,
+            "answer_relevancy": 0.7363962885653468
+        }
+    }
+}
